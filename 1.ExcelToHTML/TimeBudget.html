@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Excel to HTML</title>
+<style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 24px; }
+    h2 { margin-top: 32px; }
+    table.tbl { border-collapse: collapse; width: 100%; }
+    table.tbl th, table.tbl td { border: 1px solid #ddd; padding: 8px; }
+    table.tbl tr:nth-child(even) { background: #f9f9f9; }
+    table.tbl th { background: #f1f1f1; text-align: left; }
+</style>
+</head>
+<body>
+<table class="dataframe tbl" id="table1">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Activity</th>
+      <th>Estimation</th>
+      <th>Average Hours</th>
+      <th>Unnamed: 3</th>
+      <th>Unnamed: 4</th>
+      <th>Unnamed: 5</th>
+      <th>Unnamed: 6</th>
+      <th>Unnamed: 7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Yearly\n(Hours)</td>
+      <td>Daily\n(Hours)</td>
+      <td>Weekly\n(Hours)</td>
+      <td>Monthly\n(Hours)</td>
+      <td>Yearly\n(Days)</td>
+      <td>Lifetime \n(Years)</td>
+      <td>Monetary Value</td>
+    </tr>
+    <tr>
+      <td>Total Available Hours</td>
+      <td>8760</td>
+      <td>24</td>
+      <td>168</td>
+      <td>720</td>
+      <td>365</td>
+      <td>100</td>
+      <td>7000000</td>
+    </tr>
+    <tr>
+      <td>Total Hour Spent</td>
+      <td>9451.5</td>
+      <td>25.89452055</td>
+      <td>181.2616438</td>
+      <td>776.8356164</td>
+      <td>393.8125</td>
+      <td>107.8938356</td>
+      <td>7552568.493</td>
+    </tr>
+    <tr>
+      <td>Remaining Hours</td>
+      <td>-691.5</td>
+      <td>-1.894520548</td>
+      <td>-13.26164384</td>
+      <td>-56.83561644</td>
+      <td>-28.8125</td>
+      <td>-7.893835616</td>
+      <td>-552568.4932</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Work Commute</td>
+      <td>312</td>
+      <td>0.8547945205</td>
+      <td>5.983561644</td>
+      <td>25.64383562</td>
+      <td>13</td>
+      <td>3.561643836</td>
+      <td>249315.0685</td>
+    </tr>
+    <tr>
+      <td>Office Work</td>
+      <td>2400</td>
+      <td>6.575342466</td>
+      <td>46.02739726</td>
+      <td>197.260274</td>
+      <td>100</td>
+      <td>27.39726027</td>
+      <td>1917808.219</td>
+    </tr>
+    <tr>
+      <td>Sleep</td>
+      <td>2555</td>
+      <td>7</td>
+      <td>49</td>
+      <td>210</td>
+      <td>106.4583333</td>
+      <td>29.16666667</td>
+      <td>2041666.667</td>
+    </tr>
+    <tr>
+      <td>Weekend Fun</td>
+      <td>1040</td>
+      <td>2.849315068</td>
+      <td>19.94520548</td>
+      <td>85.47945205</td>
+      <td>43.33333333</td>
+      <td>11.87214612</td>
+      <td>831050.2283</td>
+    </tr>
+    <tr>
+      <td>Social Media</td>
+      <td>730</td>
+      <td>2</td>
+      <td>14</td>
+      <td>60</td>
+      <td>30.41666667</td>
+      <td>8.333333333</td>
+      <td>583333.3333</td>
+    </tr>
+    <tr>
+      <td>Trading</td>
+      <td>730</td>
+      <td>2</td>
+      <td>14</td>
+      <td>60</td>
+      <td>30.41666667</td>
+      <td>8.333333333</td>
+      <td>583333.3333</td>
+    </tr>
+    <tr>
+      <td>Food Intake</td>
+      <td>182.5</td>
+      <td>0.5</td>
+      <td>3.5</td>
+      <td>15</td>
+      <td>7.604166667</td>
+      <td>2.083333333</td>
+      <td>145833.3333</td>
+    </tr>
+    <tr>
+      <td>Excercise</td>
+      <td>78</td>
+      <td>0.2136986301</td>
+      <td>1.495890411</td>
+      <td>6.410958904</td>
+      <td>3.25</td>
+      <td>0.8904109589</td>
+      <td>62328.76712</td>
+    </tr>
+    <tr>
+      <td>Shower</td>
+      <td>39</td>
+      <td>0.1068493151</td>
+      <td>0.7479452055</td>
+      <td>3.205479452</td>
+      <td>1.625</td>
+      <td>0.4452054795</td>
+      <td>31164.38356</td>
+    </tr>
+    <tr>
+      <td>Toilet</td>
+      <td>182.5</td>
+      <td>0.5</td>
+      <td>3.5</td>
+      <td>15</td>
+      <td>7.604166667</td>
+      <td>2.083333333</td>
+      <td>145833.3333</td>
+    </tr>
+    <tr>
+      <td>Shopping</td>
+      <td>104</td>
+      <td>0.2849315068</td>
+      <td>1.994520548</td>
+      <td>8.547945205</td>
+      <td>4.333333333</td>
+      <td>1.187214612</td>
+      <td>83105.02283</td>
+    </tr>
+    <tr>
+      <td>Weekend Travel</td>
+      <td>416</td>
+      <td>1.139726027</td>
+      <td>7.978082192</td>
+      <td>34.19178082</td>
+      <td>17.33333333</td>
+      <td>4.748858447</td>
+      <td>332420.0913</td>
+    </tr>
+    <tr>
+      <td>Yearly Holiday</td>
+      <td>360</td>
+      <td>0.9863013699</td>
+      <td>6.904109589</td>
+      <td>29.5890411</td>
+      <td>15</td>
+      <td>4.109589041</td>
+      <td>287671.2329</td>
+    </tr>
+    <tr>
+      <td>Research</td>
+      <td>20</td>
+      <td>0.05479452055</td>
+      <td>0.3835616438</td>
+      <td>1.643835616</td>
+      <td>0.8333333333</td>
+      <td>0.2283105023</td>
+      <td>15981.73516</td>
+    </tr>
+    <tr>
+      <td>Learning</td>
+      <td>182.5</td>
+      <td>0.5</td>
+      <td>3.5</td>
+      <td>15</td>
+      <td>7.604166667</td>
+      <td>2.083333333</td>
+      <td>145833.3333</td>
+    </tr>
+    <tr>
+      <td>Sickness</td>
+      <td>120</td>
+      <td>0.3287671233</td>
+      <td>2.301369863</td>
+      <td>9.863013699</td>
+      <td>5</td>
+      <td>1.369863014</td>
+      <td>95890.41096</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
